@@ -5,6 +5,7 @@
 
 [![Proof of Concept](https://img.shields.io/badge/Status-Proof_of_Concept-yellow)](#)
 [![Google Threat Intelligence](https://img.shields.io/badge/Integration-GTI-blue)](#)
+[![Level: Beginner Friendly](https://img.shields.io/badge/Level-Beginner_Friendly-brightgreen)](#)
 [![License](https://img.shields.io/badge/license-MIT-green)](#)
 
 </div>
@@ -42,6 +43,14 @@ This project is built to be easily adaptable and integrated into existing workfl
 - **API Keys:** Never hardcode your GTI API keys into the source code.
 - **Environment Variables:** Always use environment variables or secure credential vaults to manage access.
 - **Scope:** Ensure your API token has only the necessary permissions required for the integration.
+
+## 🧪 Verification & Testing
+
+Once configured, run the application and verify that the API returns the expected threat context without throwing authentication errors. Detailed test cases will be added as the project grows.
+
+## 🔧 Troubleshooting
+
+- **API Authentication Errors:** Ensure your environment variables are set correctly and that your token has not expired.
 
 ## 🤝 Contributing
 
