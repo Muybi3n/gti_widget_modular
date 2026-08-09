@@ -5,7 +5,6 @@
 
 [![Proof of Concept](https://img.shields.io/badge/Status-Proof_of_Concept-yellow)](#)
 [![Google Threat Intelligence](https://img.shields.io/badge/Integration-GTI-blue)](#)
-[![Level: Beginner Friendly](https://img.shields.io/badge/Level-Beginner_Friendly-brightgreen)](#)
 [![License](https://img.shields.io/badge/license-MIT-green)](#)
 
 </div>
