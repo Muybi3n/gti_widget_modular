@@ -1,7 +1,7 @@
 <div align="center">
   <div>&nbsp;</div>
 
-# GTI Widget Modular
+# GTI Widget: Dynamic Threat Intelligence Dashboard
 
 [![Proof of Concept](https://img.shields.io/badge/Status-Proof_of_Concept-yellow)](#)
 [![Google Threat Intelligence](https://img.shields.io/badge/Integration-GTI-blue)](#)
