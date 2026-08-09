@@ -1,3 +1,4 @@
+// NOTE: This project is for Proof of Concept (POC) purposes only. It is not intended for production use.
 
 // --- Static Data ---
 const urlIocs = [
