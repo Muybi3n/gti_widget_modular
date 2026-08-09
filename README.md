@@ -1,17 +1,48 @@
+<div align="center">
+  <div>&nbsp;</div>
+
 # GTI Widget Modular
 
-**NOTE: This project is for Proof of Concept (POC) purposes only. It is not intended for production use.**
+[![Proof of Concept](https://img.shields.io/badge/Status-Proof_of_Concept-yellow)](#)
+[![Google Threat Intelligence](https://img.shields.io/badge/Integration-GTI-blue)](#)
+[![License](https://img.shields.io/badge/license-MIT-green)](#)
 
-## Description
+</div>
 
-The `gti_widget_modular` project provides a modular, web-based UI demonstration for integrating Google Threat Intelligence (GTI). Built with HTML, Tailwind CSS, and Vanilla JavaScript, it allows users to dynamically analyze Indicators of Compromise (IOCs), vulnerabilities, and other threat intelligence data by interacting with the GTI API. 
+A low-friction, fully modular web widget for Google Threat Intelligence (GTI). Built with HTML, Tailwind CSS, and Vanilla JavaScript, it allows users to dynamically analyze Indicators of Compromise (IOCs), vulnerabilities, and other threat intelligence data by interacting with the GTI API directly from a responsive sliding pane. Every component is swappable and designed for quick integration into existing dashboards.
 
-Users can supply their GTI API key through the UI to visualize threat detections in a sliding widget. No API keys or sensitive credentials are hardcoded into this repository.
+> **⚠️ NOTE:** This project is for **Proof of Concept (POC) purposes only**. It is not intended for production use. Do not hardcode sensitive keys or credentials in this repository.
 
-## Files
-- `build_project.py`: A Python script that regenerates the project structure.
-- `index.html`: The main web interface for the demo.
-- `js/`, `css/`: Modular JavaScript and CSS assets for styling and GTI logic.
+---
 
-## Usage
-Simply open `index.html` in a modern web browser to view the interface. Input your GTI API key in the configuration section to pull live data.
+## 🚀 Quickstart
+
+```bash
+git clone git@github.com:Muybi3n/gti_widget_modular.git
+cd gti_widget_modular
+```
+
+Configure your environment and run:
+
+```bash
+python3 build_project_gti/build_project.py
+# Then open index.html in your browser
+```
+
+## 🏗️ Architecture & Integration
+
+This project is built to be easily adaptable and integrated into existing workflows:
+
+- **Frontend:** Tailwind CSS for styling, Vanilla JS for logic.
+- **Backend/API:** Directly calls GTI API endpoints securely from the client.
+- **Deployment:** Static HTML/JS, deployable anywhere.
+
+## 🛡️ Security Best Practices
+
+- **API Keys:** Never hardcode your GTI API keys into the source code.
+- **Environment Variables:** Always use environment variables or secure credential vaults to manage access.
+- **Scope:** Ensure your API token has only the necessary permissions required for the integration.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Since this is a POC, feel free to fork and adapt it to your specific use cases.
